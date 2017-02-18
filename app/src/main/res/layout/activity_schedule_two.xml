@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:gravity="center"
+                    android:text="TIME"
+                    android:textColor="#FFF"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:gravity="center"
+                    android:text="Event"
+                    android:textColor="#FFF"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#000"
+                    android:gravity="center"
+                    android:text="VENUE"
+                    android:textColor="#FFF"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="09.00am  – 11.00am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Lecture Contest (Prelims)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Amphi Theathre"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="09.00am – 12.00pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="IT Manager (Round 2,3)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Mini Audi I"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="09.15am - 11.00am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Web Designing"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Lab - I"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <!--
+           <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="10.30am - 11.10am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:text="IT Manager (Aptitude)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FFF"
+                    android:gravity="center"
+                    android:text="Lab - I"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+            -->
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="09.30am – 10.30am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Math  Event (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Room #413"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="09.30am – 11.00am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Gaming (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Lab - II"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="10.00am -10.30am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Submission of  Movie"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Room #411"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="10.00am – 11.15am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="IT Quiz (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn24"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Mini Audi II"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="10.00am – 10.45am"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Electronics Event (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn27"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Electronics Lab"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button28"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="11.00am – 12.00pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Exhibit Contest Judging"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn30"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Main Audi"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="11.30am – 12.30pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Best Tech Team (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Amphi Theathre"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="12.00pm – 01.00pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Lecture Contest (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn36"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Mini Audi II"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="12.50pm - 01.40pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button38"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Lunch Break"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn39"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text=" "
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button40"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="01.45pm – 03.00pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button41"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Movie Screening "
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn42"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Mini Audi I"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button43"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="01.45pm - 03.00pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button44"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Pick N Speak (Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn45"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Amphi Theathre"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button46"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="01.45pm - 03.00pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button47"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="IT Manager( Finals)"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn48"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ccc"
+                    android:gravity="center"
+                    android:text="Mini Audi II"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button49"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="03.15pm - 04.15pm"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/button50"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="Valedictory Function"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn51"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ececec"
+                    android:gravity="center"
+                    android:text="SKE"
+                    android:textColor="#000"
+                    android:textSize="11sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

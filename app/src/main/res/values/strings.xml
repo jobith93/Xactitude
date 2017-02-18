@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xactitude</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dummyText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</string>
+    <string name="btn_reminder">Add Reminder</string>
+    <string name="test">xactitude \n 2k15</string>
+    <string name="reminderAdd">Reminder for the event has been added to your calendar. \n You will be reminded  15 minutes prior on the day of the Event.</string>
+    <string name="likeApp">Like this App ?</string>
+    <string name="interact">\t\tWhat can i help You with ? \n \n \tSomethings that you can ask me : \n
+        \n " Q n A " :\n\t\t\t\twhat is Xactitude ? \n\t\t\t\tWhat is your name ?
+        \n " Navigation " :\n\t\t\t\tWhere is LAB 1 ? \n\t\t\t\tWhere is mini audi ?
+        \n " FAQ " :\n\t\t\t\tHow many eveny Events ? \n\t\t\t\tWhen are Results ? </string>
+    <string name="xactitude">Xactitude 2K15 ?</string>
+    <string name="x_desc">        Xactitude 2K15 launches on February 5th, with the theme, 
+        ‘Integrating Intellectual Endeavours’.
+        \n The students of the Computer Science Department are the
+         Champions of Bangalore, winning just about every IT fest
+          they have taken part in over the past four years. 
+          \n\nXactitude 2K15 consists of 15 events, each requiring 
+          a separate set of skills. Events like IT Manager, 
+          IT Quiz and Statistics test the competitor on a variety 
+          of different levels. \n\nGalaxia, our Science Exhibition Contest,
+           also takes place at the same time, with projects on Maths, 
+           Electronics, Statistics,Computer Science and Interactive that aims to pave 
+           the way for the next great breakthrough, and foster innovation 
+           in our students’ young minds.\n</string>
+    <string name="staff_1">Mr.Prathap G \t \t \t \t\t+91 9036967080</string>
+   <string name="staff_2">Mrs. Vani Chakraborty \t \t+91 9986278137</string>
+    <string name="student_1">Mr.Kurian George \t \t\t\t+91 8050611198</string>
+    <string name="student_2">Ms.Alexis Stefi \t \t\t\t\t+91 9739981417</string>
+    <string name="help">Need Help ?</string>
+    <string name="call">Technical Support</string>
+    <string name="mail">Email Us</string>
+    <string name="like">Like this App ?</string>
+    <string name="spread">Spread the Word !</string>
+    <string name="rate">Rate this App !</string>
+    <string name="event1">IT Manager</string>
+    <string name="event2">IT Quiz</string>
+    <string name="event3">Lecture Contest</string>
+    <string name="event4">Best Tech Team</string>
+    <string name="event5">Coding and Debugging</string>
+    <string name="event6">Web Designing</string>
+    <string name="event7">Photoshop War</string>
+    <string name="event8">Treasure Hunt</string>
+    <string name="event9">Gaming</string>
+    <string name="event10">Movie Making</string>
+    <string name="event11">Electronics</string>
+    <string name="event12">Stats Event</string>
+    <string name="event13">Math Event</string>
+    <string name="event14">Pick N Speak</string>
+    <string name="event15">Exhibit Contest</string>
+    <string name="tag_1">Fort-i-tude: The strength or firmness of mind.</string>
+    <string name="tag_2">Alt-i-tude: Height of rank or excellence.</string>
+    <string name="tag_3">Rect-i-tude:Exact conformity to truth.</string>
+    <string name="tag_4">Mult-i-tude: The state of being many.</string>
+    <string name="tag_5">Prompt-i-tude: The quality of being prompt.</string>
+    <string name="tag_6">Pull-kri-tude: That quality of appearance which pleases the eye.</string>
+    <string name="tag_7">Vi-siss-i-tude: Regular change or succession from one thing to another.</string>
+    <string name="tag_8">Des-we-tude: The cessation of use.</string>
+    <string name="tag_9">Hab-i-tude: Habit of body or of action.</string>
+    <string name="tag_10">E-tude: A composition in the fine arts which may serve for a study.</string>
+    <string name="tag_11">Sim-il-i-tude: That which is like or similar.</string>
+    <string name="tag_12">Ver-i-sim-il-i-tude: the appearance of truth.</string>
+    <string name="tag_13">In-fin-i-tude: The quality or state of being infinite or without limits.</string>
+    <string name="tag_14">Pla-ti-tude: A remark or statement, especially one with a moral content.</string>
+    <string name="tag_15">Plen-i-tude: The quality or state of being full or complete, abundance.</string>
+    <string name="desc_1">IT Manager is one of the most prestigious and therefore one of the most difficult competitions of Xactitude 2K15. It consists of four rounds, each designed to test a particular facet of a manager\'s ability to do one thing: handle stress. Starting off with an aptitude test that pitches brainpower against time, the participants move on to the group discussion and stress task rounds that tests their assertiveness and ability to get a job done. Finally, those that remain are interviewed in front of hundreds of people to judge their ability to think quickly, answer succinctly, and beat the best to become Xactitude\'s IT manager.</string>
+    <string name="desc_2">The one IT event that gives preference to Information over Technology, IT Quiz tests the participants on a variety of IT trivia that will separate the good from the great. Those that survive the gruelling written preliminary round will be taken to the main stage, where a host of different rounds will test their speed, accuracy, and ability to think under pressure when presented with auditory and visual clues.</string>
+    <string name="desc_3">You do not truly know a subject until you can teach it to someone else. The Lecture Contest tests the participant\'s speaking ability as well as their knowledge of the subject. An audience favourite, as it brings future technology within the grasp of the possible.</string>
+    <string name="desc_4">An event that will start before the real battle begins. Team effort and dedication is the only key to success, in this exciting event. Stay together, Stay awake, Work together to accomplish the goals. Team of three will have to cross various hurdles throughout the event to reach the victory stand.</string>
+    <string name="desc_5">A cheeky play on words, promptitude is all about solving problems promptly from the command prompt, and proving to the world that solving complex problems by typing a few lines of code is not just an invention of Hollywood - it is a skill, honed to perfection by the very best.</string>
+    <string name="desc_6">In an era where coding literacy is almost as important as that of spoken languages, perfection can only be truly achieved when one\'s code is beautiful - both in its aesthetic qualities and in its simplicity. The Web Design Competition tests one\'s ability to use code to make a useful, intuitive and beautiful website in under an hour.</string>
+    <string name="desc_7">Testing your photoshopping skills at a professional level, Vicissitude takes the best morphers and Photoshop artists of India and pits them against time and each other. With only an hour to work in, there is no time for mistakes - only perfection.</string>
+    <string name="desc_8">Our humble attempt at reversing the trend among IT professionals to abandon exercise and become sluggish. Desuetude takes the lost art of teamwork and exploration and combines it with quick wits to solve clues, eliminate possibilities and race towards treasure and glory. Don\'t be surprised to find yourself tapping long forgotten skills and thinking out of the box to solve some of the clues.</string>
+    <string name="desc_9">If physical agility and strength have taken a backseat in the IT industry, mental acuity and superfast reaction time have definitely reached a new level among the scores of gamers that populate the leading IT companies of India. Only practice and teamwork will give you the skills necessary to emerge victorious from this winner-take-all competition.</string>
+    <string name="desc_10">We all watch moves, but few of us are knowledgeable enough to notice the amazing cinematography and technique involved in the creation of even a five-second clip. If you are among the few who admires film making, is skilled at video editing and regards communication as an art-form, then this competition is for you.</string>
+    <string name="desc_11">Theory is well and good, but when it all boils down to silicon and copper, only those with practical electronic knowledge can make the connections and create the circuits on which our whole world is run. The ability to recognise the similar, identify the incongruous and duplicate in reality what only exists on paper is the minimum requirements to excel in this competition.</string>
+    <string name="desc_12">With data analysis looming on the horizon as a billion dollar enterprise, the expertise needed in statistics has also increased, promising to usher in a new era in the age of information. Accordingly, we have created a statistics mini-marathon, that starts off with an aptitude test, the completion of which moves you into a crossword round, ending with a quiz that tests every part of your knowledge in statistics.</string>
+    <string name="desc_13">Bend your brain around some challenging Math puzzles that will set your mind whirling, and force you to think logically to deduce what may not be possible to derive. In the world of Mathematics, certainty is everything. How will you fare when you do not know what comes next, and have to expect the unexpected?</string>
+    <string name="desc_14">A good speaker has a vast vocabulary. He chooses his words wisely. This event is for those, who play with words, to convey their ideas and thoughts effectively through to others, even in obscure situtations.</string>
+    <string name="desc_15">A celebration of innovation, The Exhibit Contest is the inter-collegiate arm of Galaxia - a two day science exhibition competition designed to bring out the very best of the abundance of ideas and creative potential held by India\'s youth. With cash prizes and technical exposure, the best and brightest of India come from far and wide to showcase the next big idea on the horizons of Mathematics, Statistics, Computer Science, Electronics and Interactive Learning.</string>
+    <string name="stud_cod_1">Shraddha R B\n( 9972835085 )\nNikhil Raj R\n( 8553980422 )\nHemant  M\nPrince  B\nTheres Ann Mathew\nUmesh  T J</string>
+    <string name="stud_cod_2">Allan Mathew\n( 9916454561 )\nAkhil M S\n( 8197965022 )\nMary Rebecca J\nSangeetha  K\nAmal Varkey P\nJoseph  Sebastian\nNoel Zaphnath</string>
+    <string name="stud_cod_3">Chaithra  R\nChaithra  S R\nManjula  R\nShashank  S\nNfaseh Gires Sob\nArshiya  Kausar\nRini  Raju</string>
+    <string name="stud_cod_4">Anjali K  Vasudevan\n( 9535404004 )\nLavanya  S\n( 8792113104 )\nHamsa  S\nJoel  Thomas\nTiju Thomas P\nGagan Kumar Chawda\nChristina R Paul</string>
+    <string name="stud_cod_5">Jijo  Joseph\n( 9742311203 )\nJohnson\nChandrakala  Y\nJaqulin Reena M\nNeha C Cherian\nDaniel  Paul\nAbin Joseph</string>
+    <string name="stud_cod_6">Aishwarya  K V\n( 7204652024 )\nJobith M Basheer\n( 8904330374 )\nInfant Richard\nTobin  Tom\nSanjay J Kandathil\nNidhin K James</string>
+    <string name="stud_cod_7">Abijith  Benny\n( 8553164496 )\nRohit  V S\n( 8553406141 )\nSanjay J Kandathil\nJithu  Benny\nSyed  Mujahid\nMaruthi  V\nTejesh  L</string>
+    <string name="stud_cod_8">Aishwarya  R\n( 9632470726 )\nBhavani Shankar\nKarthick  B\nManikandan  S\n( 8884163174 )\nSamuel\nSarjun S S\nSarath  M\nSanjay Raj R</string>
+    <string name="stud_cod_9">Jeffin M A\n( 9066731873 )\nLighil  C R\n( 8050218820 )\nGison Tom Mathew\nThomas Mathew Ayvelil\nShafaz  M J</string>
+    <string name="stud_cod_10">Renju V Rajan\nJobin Kattakayam\n( 7406015610 )\nTobin  Tom\n( 8553456954 )\nAlbin Wilson\nNagendra Babu R\nPraveen Kumar G</string>
+    <string name="stud_cod_11">Kurian  Cherian\n( 9686434946 )\nPrimal  Jose\n( 8892173732 )\nJoel Joy Manjaly\nPushpa  J\nMaria Archana H\nLeyo Babu Thomas\nYeshwanth  K</string>
+    <string name="stud_cod_12">Rintu C D\n( 9972835085 )\nNandhini  M\nFanny Moussa Rakim\nMerin  Paul\nSebastian  Tomy\nAjo  Jose\nSindhuja  K</string>
+    <string name="stud_cod_13">Shraddha Ramdas\n( 9972835085 )\nNandhini\nMonica  Celes\nSanthosh K M\nRohini  K M\n( 9738431435 )\nMelwin  Sunny</string>
+    <string name="stud_cod_14">A  Chaithanya\n( 7259378199 )\nManju Shree G\n( 9731636969 )\nMohammed Irfan\nSajana Grace Mathew\nPushpa  J\nUmesh  T J\nAmrita  Tiwari</string>
+    <string name="stud_cod_15">Anusha  C\nLibin  George\n( 8147719548 )\nAjay Mishael\n( 7411918033 )\nTanya  S\nRevathi  R\nBhaskara  Deepthi\nAnjilda Tinu</string>
+    <string name="staff_cod_1">Mr.Ramanadhan\nMs.Mini GopalaKrishnan</string>
+    <string name="staff_cod_2">Ms.Mary Jacob\nMs. KalaiSelvi</string>
+    <string name="staff_cod_3">Ms.Ann Mary Joyson\nMs.Anitha D’souza</string>
+    <string name="staff_cod_4">Ms.Aishwarya\nMs.Sandya Soman</string>
+    <string name="staff_cod_5">Mr.Aswin Herbert Sathish\nMs.Diana Susan</string>
+    <string name="staff_cod_6">Ms.Dhanamalar\nMr.Rajesh</string>
+    <string name="staff_cod_7">Ms.Mary Jacob\nMs.Diana Susan</string>
+    <string name="staff_cod_8">Mr.Aswin Herbert Sathish\nMs.Sandya Soman</string>
+    <string name="staff_cod_9">Mr.Ramanadhan\nMr.Anthony Vincent</string>
+    <string name="staff_cod_10">Ms.Aishwarya\nMr.Anthony Vincent</string>
+    <string name="staff_cod_11">Mr.Nagendra\nMr.Amjad Hassan Khan</string>
+    <string name="staff_cod_12">Ms.Suni Ajaykumar\nMs.Liji George</string>
+    <string name="staff_cod_13">Ms.Ann Mary Joyson\nMs.Mini GopalaKrishnan</string>
+    <string name="staff_cod_14">Ms.Anitha D’souza\nMs.Kalaiselvi</string>
+    <string name="staff_cod_15">Mr.Rajesh \nMr.Amjad Hassan khan</string>
+    <string name="update">Schedule will be available along with next update for this app.\n
+        Please update the app as soon the update is available to get additional features.</string>
+    <string name="staff_coordinators">Staff Coordinators</string>
+    <string name="in_1">Participants have to carry their college ID card and letter of authorization from the respective institution.</string>
+	<string name="in_2">Participants have to register their name for an event without any time clash with other events.</string>
+	<string name="in_3">Maximum of 15 participants per  college and only one team from a college is allowed.</string>
+	<string name="in_4">Registration Fee Rs.1000/-  per college and Rs. 100/- for an individual.</string>
+	<string name="in_5">Spot registration will be allowed.</string>
+	<string name="in_6">Free accommodation and food will be provided for outstation colleges throughout the days of fest.</string>
+	<string name="in_7">Visit Xactitude website for detailed event description and event coordinators\' details.</string>
+	<string name="rule_1">•	Participants must carry their own Laptops (net setter if possible)\n\n
+•	Judges decision will be final.\n\n
+•	Participants taking part in IT Manager are not permitted to take part in any other events.\n\n              
+•	Mobile Phones/Electronic gadgets are not permitted during the event and if  found, leads to disqualification (Laptops are an exception).\n\n
+•	Any form of malpractice leads to disqualification.\n\n
+•	Participants will not be allowed to attend the event without the College ID card.\n\n
+•	Participants should assemble in the respective venues 15 minutes prior to the    event, late coming will not be entertained.\n\n
+	    
+	</string>
+	<string name="rule_2">•	Event consists of 3 rounds\n\n
+•	Duration of Rounds:\n\n\t\t
+•	Round 1- 30 minutes\n\n\t\t
+•	Round 2- 30 minutes\n\n\t\t
+•	Round 3- 1 hour\n\n
+•	Elimination:\n\n\t\t
+•	Top 10 will be selected from Round 1\n\n\t\t
+•	Top 4 will be selected from Round 2\n\n
+	    
+	</string>
+	<string name="rule_3">•	ROUND 1\n\n\t\t
+	     • 3+1minutes\n\n\t\t
+	     • PPT compulsory\n\n
+	ROUND 2\n\n\t\t
+	     •4+1minutes\n\n\t\t
+	     •Topics given before 1hour of 2nd round\n\n\t\t
+	     •PPT  is compulsory\n\n
+	ROUND 3\n\n\t\t
+	    •4+1minutes(1min for questioning)\n\n\t\t
+	    •Topics will be given related to 2nd round\n\n\t\t
+	    •PPT compulsory\n\n\t\t
+	    •No browsing\n\n\t\t
+	    •Related images will be given\n\n
+	    
+	</string>
+	<string name="rule_4">•	Event starts from 1-feb-2015.\n\n
+•	Final rounds will be held on 5th and 6th of  February.\n\n
+•	All the rounds should be completed within the given time.\n\n
+•	Every round has elimination.\n\n
+•	Any malpractices will lead to disqualification.\n\n
+	    
+	</string>
+	<string name="rule_5">•	Use of Electronic Gadgets, referring System help and Internet leads to Disqualification\n\n
+•	Judges decisions are final.
+	    
+	</string>
+	<string name="rule_6">•	Participants have to replicate a website shown to them at the beginning of the competition within the allotted time.\n\n
+•	They are given 1 hour 30 mins time to do web designing.\n\n
+•	Participants should try to replicate the design and functionality of the website shown to them.\n\n
+•	Result will be decided by the respected  Event Judges \n\n
+•	Evaluation Criteria\n\n\t\t
+Functionality \n\n\t\t
+Degree of  similarity
+	    
+	</string>
+	<string name="rule_7">•	Adobe Photoshop CS version will be provided.\n\n
+•	They are given 1 hour 30 mins time.\n\n
+•	Recreation will be the first round in which the participant have to recreate the image given.\n\n
+•	The next round a design based theme will be given.\n\n
+•	No internet connection provided.\n\n
+•	Result well be decided by the respected  Event Judges.\n\n 
+	    
+	</string>
+	<string name="rule_8">•	Previous level answer is the clue for the current level.\n\n
+•	Participants should report to the event coordinators as soon as they finish finding the final clue.\n\n
+•	It is mandatory for a student to participate in the event after he/she is registered. Failure to do so will result in negative points.\n\n
+•	Any sort of malpractices will result in disqualification of team.\n\n
+•	Without ID card, participant will not be allowed to participate in the event.
+	    
+	</string>
+	<string name="rule_9">•	First  Round \n\n\t\t
+ Need for speed most wanted\n\n
+ NFS most wanted is the first round.\nEach candidate will give a particular round.\nThe candidates who finish the lap in the least time will be selected for the second round.\nThis is an individual event.\n\n
+•	Second round\n\n\t\t
+Counter strike\n\n
+The selected candidates from the first round will be grouped to play the second round.\nThe persons with highest kills will be selected as winner.\nThis is also an individual event.\n
+	    
+	</string>
+	<string name="rule_10">•	There are no prelims for this event.\n\n
+•	Participants have to shoot the videos on the first day of Xactitude.\n\n
+•	Theme will be based on Xactitude and the  events of the day.\n\n
+•	The video must not exceed 5 minutes and it should not include any credits.\n\n
+•	The participants can use any editing software for the movie composition.\n\n
+•	Downloaded materials in the video are not consider for judgment (Eg. After  effects templates).\n\n
+•	On the second day, participants have to submit the final video.\n\nThe timing for submission will be announced on the first day of Xactitude.
+	    
+	</string>
+	<string name="rule_11">
+	    It consists of 4 rounds.\n
+•	Round 1: `crucigrama` (Crossword) 			\n
+•	Round 2: `sciarade Dumb` (Dumb charades)		\n
+•	Round 3: `Kuizumasuta` (Quiz master)		\n
+•	Round 4: `Chase Autresor` (Circuit Hunt)
+	    
+	    
+	</string>
+	<string name="rule_12">•	No use of calculators, mobile phones and any sort of electronic devices.\n\n
+•	Participants should reach the respective venue 5 -10 minutes prior the event takes off.\n\n
+•	Judges decision will be final.\n\n
+	    
+	</string>
+	<string name="rule_13">
+	    Round 1:\t\tShow us the “mathiac” in “u”\n\n
+
+•	Qualifier round to next level\n
+•	Basic math questions – simple yet logical\n
+•	Solve, set  path!
+\n\n
+Round 2:\t\tCubic “M”\n\n
+
+•	This section is a combination of 3 fun-learn math rounds\n
+•	Wait for it – be prepared\n
+•	Remember the past to set your future\n\n
+
+
+Round 3:\t\tThe Ultimate “ATTIC”\n\n
+
+•	UA takes you to your ultimate destination\n
+•	Use your directions, get directed n bring the “Attic” in  you\n
+•	This is your final test \n
+•	Know the math application in real world, the discoverers and your fellow mathiac\n
+•	Discover your “infinity”\n
+\n\n\n
+General Rules:\n\n
+•	No use of calculators , mobile phones and any sort of electronic devices .\n
+•	Participants should reach the respective venue 5 -10 minutes prior the event takes off.\n
+•	Judges decision will be final.
+
+	    
+	</string>
+	<string name="rule_14">•	Individual event.\n\n
+•	All the rounds should be completed within the given time.\n\n
+•	Topics are given on the spot.\n\n
+•	Every round has elimination.
+	    
+	</string>
+	<string name="rule_15">•	Participants should carry a synopsis of their project with them.\n\n
+•	Power point presentation is optional.\n\n
+•	Participants should inform their requirements, such as plug points, and other electrical equipment during the registration.\n\n
+•	Video of the project making should be given (optional)\n\n
+•	Their model or project should be based on one of the following fields:\n\n\t\t
+a) ComputerScience \n\n\t\t
+b) Electronics \n\n\t\t
+c) Mathematics \n\n\t\t
+d) Statistics\n\n\t\t
+e) Interactive
+	    
+	</string>
+</resources>

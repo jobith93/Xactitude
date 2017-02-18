@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40e2dede" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/xactitude"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/x_desc"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/staff_coordinators"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/call_staff_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shadow_btn_2"
+            android:drawableRight="@drawable/call"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/staff_1"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/call_staff_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/shadow_btn_2"
+            android:drawableRight="@drawable/call"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/staff_2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Student Coordinators"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/call_stud_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shadow_btn_2"
+            android:drawableRight="@drawable/call"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/student_1"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/call_stud_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/shadow_btn_2"
+            android:drawableRight="@drawable/call"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/student_2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="@string/help"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/call_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shadow_btn_2"
+            android:drawableRight="@drawable/call"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/call" />
+
+        <Button
+            android:id="@+id/mail_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shadow_btn_2"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/mail" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/like"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shadow_btn_2"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/spread" />
+
+        <Button
+            android:id="@+id/rate_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shadow_btn_2"
+            android:gravity="center"
+            android:onClick="doAction"
+            android:paddingLeft="10dp"
+            android:text="@string/rate" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/versionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+				android:textSize="12sp"
+				android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/like" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Jobith/AndroidStudioProjects/Xactitude/app/src/main/res/layout/activity_contact.xml -->

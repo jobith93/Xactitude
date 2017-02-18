@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <!-- Drop Shadow Stack -->
+     <item>
+        <shape>
+            <padding android:top="2dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <solid android:color="#00aaaaaa" />
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+     <item>
+        <shape>
+            <padding android:top="2dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <solid android:color="#10aaaaaa" />
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+     <item>
+        <shape>
+            <padding android:top="2dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <solid android:color="#20aaaaaa" />
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+     <item>
+        <shape>
+            <padding android:top="2dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <solid android:color="#30aaaaaa" />
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="2dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <solid android:color="#50aaaaaa" />
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+	<item>
+        <shape>
+            <padding android:top="2dp" android:right="1dp" android:bottom="2dp" android:left="1dp" />
+            <solid android:color="#60aaaaaa" />
+            <corners android:radius="19dp" />
+        </shape>
+    </item>
+    <!-- Background -->
+    <item>
+	<shape>
+        <solid android:color="#536dfe" />
+	    <corners android:radius="20dp" />
+	</shape>
+    </item>
+</layer-list>
+<!-- From: file:/C:/Users/Jobith/AndroidStudioProjects/Xactitude/app/src/main/res/drawable/shadow_btn.xml -->

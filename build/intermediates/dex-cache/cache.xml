@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jobith\AndroidStudioProjects\Xactitude\app\libs\Pushbots131beta.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecf8f02209676afa779c6084ca950d99431e5b3c">
+        <dex dex="C:\Users\Jobith\AndroidStudioProjects\Xactitude\app\build\intermediates\pre-dexed\debug\Pushbots131beta-c6a7dc6dbfdb4d8b899fc12f2709b9539bb23927.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jobith\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Jobith\AndroidStudioProjects\Xactitude\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-c5239e7ba567b6e1a25e99044b174756890d4e0a.jar" />
+    </item>
+
+</items>

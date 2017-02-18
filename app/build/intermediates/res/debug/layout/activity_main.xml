@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity" >
+
+    <ViewFlipper
+        android:id="@+id/flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shadow_slider"
+        android:flipInterval="5000" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img4" />
+    </ViewFlipper>
+
+
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flipper1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/eventIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_events" />
+
+            <ImageButton
+                android:id="@+id/speechIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_speech" />
+
+            <ImageButton
+                android:id="@+id/scheduleIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_schedule" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" >
+        </Space>
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/registerIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_register" />
+
+            <ImageButton
+                android:id="@+id/instructionIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_instructions" />
+
+            <ImageButton
+                android:id="@+id/contactIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_about" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" >
+        </Space>
+
+        <LinearLayout
+            android:id="@+id/lin3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/facebookIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_facebook" />
+
+            <ImageButton
+                android:id="@+id/youtubeIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_youtube" />
+
+            <ImageButton
+                android:id="@+id/mapsIcon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="openNext"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_locate" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+    
+
+</RelativeLayout><!-- From: file:/C:/Users/Jobith/AndroidStudioProjects/Xactitude/app/src/main/res/layout/activity_main.xml -->

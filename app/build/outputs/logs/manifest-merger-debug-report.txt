@@ -1,0 +1,275 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:6:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:installLocation
+		ADDED from AndroidManifest.xml:4:5
+uses-sdk
+ADDED from AndroidManifest.xml:8:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.READ_PROFILE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.READ_CALENDAR
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:21:2
+	android:name
+		ADDED from AndroidManifest.xml:21:19
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+permission#com.three38inc.xactitude.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:26:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:28:9
+	android:name
+		ADDED from AndroidManifest.xml:27:9
+uses-permission#com.three38inc.xactitude.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+application
+ADDED from AndroidManifest.xml:35:5
+	android:label
+		ADDED from AndroidManifest.xml:39:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:36:9
+	android:icon
+		ADDED from AndroidManifest.xml:37:9
+	android:theme
+		ADDED from AndroidManifest.xml:40:9
+	android:name
+		ADDED from AndroidManifest.xml:38:9
+activity#com.three38inc.xactitude.SplashActivity
+ADDED from AndroidManifest.xml:41:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:46:13
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:noHistory
+		ADDED from AndroidManifest.xml:45:13
+	android:icon
+		ADDED from AndroidManifest.xml:43:13
+	android:theme
+		ADDED from AndroidManifest.xml:47:13
+	android:name
+		ADDED from AndroidManifest.xml:42:13
+activity#com.three38inc.xactitude.MainActivity
+ADDED from AndroidManifest.xml:57:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:61:13
+	android:label
+		ADDED from AndroidManifest.xml:60:13
+	android:icon
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:58:13
+activity#com.three38inc.xactitude.EventActivity
+ADDED from AndroidManifest.xml:72:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:76:13
+	android:label
+		ADDED from AndroidManifest.xml:75:13
+	android:icon
+		ADDED from AndroidManifest.xml:74:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#com.three38inc.xactitude.SpeechActivity
+ADDED from AndroidManifest.xml:86:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:90:13
+	android:label
+		ADDED from AndroidManifest.xml:89:13
+	android:icon
+		ADDED from AndroidManifest.xml:88:13
+	android:name
+		ADDED from AndroidManifest.xml:87:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:93:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:94:17
+	android:name
+		ADDED from AndroidManifest.xml:94:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:96:17
+	android:name
+		ADDED from AndroidManifest.xml:96:27
+activity#com.three38inc.xactitude.DetailActivity
+ADDED from AndroidManifest.xml:99:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:103:13
+	android:label
+		ADDED from AndroidManifest.xml:102:13
+	android:icon
+		ADDED from AndroidManifest.xml:101:13
+	android:name
+		ADDED from AndroidManifest.xml:100:13
+activity#com.three38inc.xactitude.ScheduleActivity
+ADDED from AndroidManifest.xml:113:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:117:13
+	android:label
+		ADDED from AndroidManifest.xml:116:13
+	android:icon
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:114:13
+activity#com.three38inc.xactitude.ContactActivity
+ADDED from AndroidManifest.xml:127:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:131:13
+	android:label
+		ADDED from AndroidManifest.xml:130:13
+	android:icon
+		ADDED from AndroidManifest.xml:129:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13
+activity#com.three38inc.xactitude.InterestActivity
+ADDED from AndroidManifest.xml:141:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:145:13
+	android:label
+		ADDED from AndroidManifest.xml:144:13
+	android:icon
+		ADDED from AndroidManifest.xml:143:13
+	android:name
+		ADDED from AndroidManifest.xml:142:13
+activity#com.three38inc.xactitude.InstructionActivity
+ADDED from AndroidManifest.xml:155:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:159:13
+	android:label
+		ADDED from AndroidManifest.xml:158:13
+	android:icon
+		ADDED from AndroidManifest.xml:157:13
+	android:name
+		ADDED from AndroidManifest.xml:156:13
+activity#com.three38inc.xactitude.FeedActivity
+ADDED from AndroidManifest.xml:169:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:173:13
+	android:label
+		ADDED from AndroidManifest.xml:172:13
+	android:icon
+		ADDED from AndroidManifest.xml:171:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+intent-filter#android.intent.category.DEFAULT+com.three38inc.xactitude.MESSAGE
+ADDED from AndroidManifest.xml:183:13
+action#com.three38inc.xactitude.MESSAGE
+ADDED from AndroidManifest.xml:184:17
+	android:name
+		ADDED from AndroidManifest.xml:184:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:186:17
+	android:name
+		ADDED from AndroidManifest.xml:186:27
+activity#com.pushbots.push.PBMsg
+ADDED from AndroidManifest.xml:190:9
+	android:name
+		ADDED from AndroidManifest.xml:190:19
+activity#com.pushbots.push.PBListener
+ADDED from AndroidManifest.xml:191:9
+	android:name
+		ADDED from AndroidManifest.xml:191:19
+receiver#com.google.android.gcm.GCMBroadcastReceiver
+ADDED from AndroidManifest.xml:193:9
+	android:permission
+		ADDED from AndroidManifest.xml:195:13
+	android:name
+		ADDED from AndroidManifest.xml:194:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.three38inc.xactitude
+ADDED from AndroidManifest.xml:196:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:199:17
+	android:name
+		ADDED from AndroidManifest.xml:199:25
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from AndroidManifest.xml:201:17
+	android:name
+		ADDED from AndroidManifest.xml:201:25
+category#com.three38inc.xactitude
+ADDED from AndroidManifest.xml:203:17
+	android:name
+		ADDED from AndroidManifest.xml:203:27
+receiver#com.pushbots.push.MsgReceiver
+ADDED from AndroidManifest.xml:206:9
+	android:name
+		ADDED from AndroidManifest.xml:206:19
+service#com.pushbots.push.GCMIntentService
+ADDED from AndroidManifest.xml:208:9
+	android:name
+		ADDED from AndroidManifest.xml:208:18
+service#org.openudid.OpenUDID_service
+ADDED from AndroidManifest.xml:209:9
+	android:name
+		ADDED from AndroidManifest.xml:209:18
+intent-filter#org.openudid.GETUDID
+ADDED from AndroidManifest.xml:210:13
+action#org.openudid.GETUDID
+ADDED from AndroidManifest.xml:211:17
+	android:name
+		ADDED from AndroidManifest.xml:211:25
+receiver#com.three38inc.xactitude.pushHandler
+ADDED from AndroidManifest.xml:215:9
+	android:name
+		ADDED from AndroidManifest.xml:215:19

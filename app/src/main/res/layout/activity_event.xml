@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dce0df" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/event1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/it_manager" />
+			<TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/event1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:text="@string/tag_1"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/it_quiz" />
+			<TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_2"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_lecture" />
+			<TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView6"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_3"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_best_tech_team" />
+			<TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView8"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_4"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_coding" />
+			<TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView9"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_5"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_webdesign" />
+			<TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView11"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_6"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_photoshop" />
+			<TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event7"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView13"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_7"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_treasure" />
+			<TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView15"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_8"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_gaming" />
+			<TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event9"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView17"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_9"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_movie" />
+			<TextView
+                android:id="@+id/textView181"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event10"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView19"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_10"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_electronics" />
+			<TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event11"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView21"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_11"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_stat" />
+			<TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event12"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView23"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_12"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_math" />
+			<TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event13"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView25"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_13"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_pick" />
+			<TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event14"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView27"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_14"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/event15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:onClick="openEvent"
+            android:background="@drawable/shadow" >
+			
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_exhibit" />
+			<TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/event15"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<TextView
+			    android:id="@+id/textView29"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/tag_15"
+			    android:layout_marginLeft="5dp"
+			    android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+
+</ScrollView>
