@@ -10,9 +10,3 @@ The xactitiude 2K15 app was built to be your co-pilot to navigate Xactitude 2K15
 * Facebook, Youtube Connectivity.
 * Register for the events directly from the App.
 * Contact us immediately through the About Us Form.
-
-visit us @ www.kristujayanti.edu.in/xactitude
-
-Like us @ www.facebook.com/xactitude
-
-write to us @ computeracademy@kristujayanti.com
